@@ -18,7 +18,7 @@ function ages(age) {
     } else if (age < 18 && age > 0) {
         alert('You are not allowed')
     } else {
-        alert('Your are Debil')
+        alert('You are Debil')
     }
 }
 
@@ -49,8 +49,7 @@ number(a, b)
 function max_name(name, name2, name3) {
     let ind = Math.max(max_name.length)
     let result = max_name[ind - 1]
-    console.log(ind);
-    console.log(result);
+    console.log(ind, result);
 }
 
 max_name('Alex', 'George', 'Michael')
